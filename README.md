@@ -26,5 +26,6 @@ This is a basic application that alerts students about upcoming assignment deadl
  
 
 #Author
+
 Manuelle Aseye Ackun (GitHub username: aackun)
 Individual Summative Lab
