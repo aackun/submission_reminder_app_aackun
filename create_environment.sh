@@ -19,7 +19,7 @@ source ../config/config.env
 source ../modules/functions.sh
 
 # Path to the submissions file
-submissions_file="./assets/submissions.txt"
+submissions_file="../assets/submissions.txt"
 
 # Print remaining time and run the reminder function
 echo "Assignment: $ASSIGNMENT"
@@ -68,6 +68,13 @@ Anissa, Shell Basics, submitted
 Grace, Git, not submitted
 Emmanuel, Shell Basics, not submitted
 Joshua, Shell Navigation, submitted
+Samantha, Shell Loops and Conditions, submitted
+Lawrence, Shell Permissions, not submitted
+David, Shell Loops and Conditions, not submitted
+Matthew, Git, not submitted
+Emma, Shell Loops and Conditions, not submitted
+Asanewa, Git, not submitted
+Emmanuel, Shell Permissions, submitted
 EOF
 
 cat > "$base_dir/$dir_name/startup.sh" << 'EOF'
