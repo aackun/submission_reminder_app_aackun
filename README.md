@@ -24,6 +24,7 @@ This is a basic application that alerts students about upcoming assignment deadl
 4. The script will automatically startup.sh to reflect the new changes
 
 #Example Output before the assignment is changed
+
 Assignment: Shell Navigation
 Days remaining to submit: 2 days
 --------------------------------------------
@@ -31,7 +32,9 @@ Checking submissions in ../assets/submissions.txt
 Reminder: Chinemerem has not submitted the Shell Navigation assignment!
 Reminder: Divine has not submitted the Shell Navigation assignment!
 
+
 #Example Output after the assignment is changed
+
 $ ./copilot_shell_script.sh
 Enter your name (used in the folder name): Aseye
 Enter the new assignment name: Git
